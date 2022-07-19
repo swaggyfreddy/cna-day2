@@ -4,7 +4,7 @@ LABEL name="ezong"
 
 RUN yum install httpd -y
 
-COPY ../cna-day2 /var/www/html/
+COPY . /var/www/html/
 
 EXPOSE 80
 
